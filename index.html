@@ -3,16 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de Git</title>
+    <title>Meu Portfólio</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <ul>
-        <li>Página Principal</li>
-        <li>Sobre mim</li>
-        <li>Contatos</li>
-    </ul>
-    <h1>Funcionou o git corretamente!</h1>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Meu Portfólio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Olá, eu sou Antonio Fernandes</h1>
+            <p class="lead">Desenvolvedor Web | Designer | Criador de Conteúdo</p>
+            <a href="#about" class="btn btn-light btn-lg">Saiba Mais</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Sobre Mim</h2>
+                    <p>Sou um desenvolvedor apaixonado por tecnologia e design. Com experiência em HTML, CSS, JavaScript e frameworks como Bootstrap, crio soluções web inovadoras e responsivas.</p>
+                    <p>Adoro aprender novas tecnologias e trabalhar em projetos desafiadores.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/profile.jpg" alt="Foto de Perfil" class="img-fluid rounded-circle" style="width: 200px; height: 200px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Meus Projetos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/project1.jpg" class="card-img-top" alt="Projeto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Projeto 1</h5>
+                            <p class="card-text">Descrição breve do projeto.</p>
+                            <a href="#" class="btn btn-primary">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/project2.jpg" class="card-img-top" alt="Projeto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Projeto 2</h5>
+                            <p class="card-text">Descrição breve do projeto.</p>
+                            <a href="#" class="btn btn-primary">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/project3.jpg" class="card-img-top" alt="Projeto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Projeto 3</h5>
+                            <p class="card-text">Descrição breve do projeto.</p>
+                            <a href="#" class="btn btn-primary">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Habilidades</h2>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <i class="fas fa-code fa-3x mb-3"></i>
+                    <h5>HTML/CSS</h5>
+                </div>
+                <div class="col-md-3 text-center">
+                    <i class="fab fa-js fa-3x mb-3"></i>
+                    <h5>JavaScript</h5>
+                </div>
+                <div class="col-md-3 text-center">
+                    <i class="fab fa-bootstrap fa-3x mb-3"></i>
+                    <h5>Bootstrap</h5>
+                </div>
+                <div class="col-md-3 text-center">
+                    <i class="fab fa-python fa-3x mb-3"></i>
+                    <h5>Python</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Entre em Contato</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <p><i class="fas fa-envelope"></i> email@exemplo.com</p>
+                    <p><i class="fas fa-phone"></i> (11) 99999-9999</p>
+                    <p><i class="fab fa-linkedin"></i> linkedin.com/in/seu-perfil</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2023 Meu Portfólio. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
