@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
+    <title>Projetos - Antonio Fernandes</title>
+
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Estilos customizados -->
     <style>
         .bg-primary {
             background-color: #003366 !important;
@@ -20,160 +26,143 @@
         }
     </style>
 </head>
+
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Meu Portfólio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="curriculo.html">Currículo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contato</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="bg-primary text-white text-center py-5">
-        <div class="container">
-            <h1 class="display-4">Olá, eu sou Antonio Fernandes</h1>
-            <p class="lead">Desenvolvedor Web | Designer | Criador de Conteúdo</p>
-            <a href="#about" class="btn btn-light btn-lg">Saiba Mais</a>
-        </div>
-    </section>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Meu Portfólio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <!-- About Section -->
-    <section id="about" class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2>Sobre Mim</h2>
-                    <p>Sou um desenvolvedor apaixonado por tecnologia e design. Com experiência em HTML, CSS, JavaScript e frameworks como Bootstrap, crio soluções web inovadoras e responsivas.</p>
-                    <p>Adoro aprender novas tecnologias e trabalhar em projetos desafiadores.</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="img/profile.jpg" alt="Foto de Perfil" class="img-fluid rounded-circle" style="width: 200px; height: 200px;">
-                </div>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#about">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="curriculo.html">Currículo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="projetos.html">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact">Contato</a>
+                </li>
+            </ul>
         </div>
-    </section>
+    </div>
+</nav>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="bg-light py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Meus Projetos</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="img/project1.jpg" class="card-img-top" alt="Projeto 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Projeto 1</h5>
-                            <p class="card-text">Descrição breve do projeto.</p>
-                            <a href="#" class="btn btn-primary">Ver Projeto</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="img/project2.jpg" class="card-img-top" alt="Projeto 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Projeto 2</h5>
-                            <p class="card-text">Descrição breve do projeto.</p>
-                            <a href="#" class="btn btn-primary">Ver Projeto</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="img/project3.jpg" class="card-img-top" alt="Projeto 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Projeto 3</h5>
-                            <p class="card-text">Descrição breve do projeto.</p>
-                            <a href="#" class="btn btn-primary">Ver Projeto</a>
-                        </div>
+<!-- Cabeçalho -->
+<section class="bg-primary text-white text-center py-5">
+    <div class="container">
+        <h1 class="display-5">Projetos & Experiência</h1>
+        <p class="lead">
+            Atividades acadêmicas, experiências profissionais e projetos desenvolvidos
+        </p>
+    </div>
+</section>
+
+<!-- Conteúdo -->
+<section class="py-5">
+    <div class="container">
+
+        <div class="row g-4">
+
+            <!-- Projeto 1 -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            Professor de Matemática
+                        </h5>
+                        <p class="card-text">
+                            Atuação como professor de matemática no ensino fundamental e médio,
+                            desenvolvendo metodologias ativas, resolução de problemas e uso de
+                            recursos digitais no processo de ensino-aprendizagem.
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Habilidades</h2>
-            <div class="row">
-                <div class="col-md-3 text-center">
-                    <i class="fas fa-code fa-3x mb-3"></i>
-                    <h5>HTML/CSS</h5>
-                </div>
-                <div class="col-md-3 text-center">
-                    <i class="fab fa-js fa-3x mb-3"></i>
-                    <h5>JavaScript</h5>
-                </div>
-                <div class="col-md-3 text-center">
-                    <i class="fab fa-bootstrap fa-3x mb-3"></i>
-                    <h5>Bootstrap</h5>
-                </div>
-                <div class="col-md-3 text-center">
-                    <i class="fab fa-python fa-3x mb-3"></i>
-                    <h5>Python</h5>
+            <!-- Projeto 2 -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fas fa-laptop-code"></i>
+                            Desenvolvimento Web
+                        </h5>
+                        <p class="card-text">
+                            Criação de páginas web utilizando HTML5, CSS3, Bootstrap e JavaScript,
+                            com foco em design responsivo e boas práticas de programação.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="bg-dark text-white py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Entre em Contato</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <form>
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Nome</label>
-                            <input type="text" class="form-control" id="name">
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email">
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Mensagem</label>
-                            <textarea class="form-control" id="message" rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </form>
-                </div>
-                <div class="col-md-6">
-                    <p><i class="fas fa-envelope"></i> fernandes.evoke@gmail.com</p>
-                    <p><i class="fas fa-phone"></i> (86) 99462-5503</p>
-                    <p><i class="fab fa-linkedin"></i> linkedin.com/in/seu-perfil</p>
+            <!-- Projeto 3 -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fas fa-book"></i>
+                            Projetos Acadêmicos
+                        </h5>
+                        <p class="card-text">
+                            Participação em projetos acadêmicos durante a graduação na
+                            Universidade Estadual do Piauí, com foco em educação, matemática
+                            e tecnologia aplicada ao ensino.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="bg-secondary text-white text-center py-3">
-        <div class="container">
-            <p>&copy; 2023 Meu Portfólio. Todos os direitos reservados.</p>
-        </div>
-    </footer>
+            <!-- Projeto 4 -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fas fa-graduation-cap"></i>
+                            Formação Continuada
+                        </h5>
+                        <p class="card-text">
+                            Cursos complementares e estudos contínuos nas áreas de tecnologia,
+                            programação web e metodologias educacionais modernas.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
+        </div>
+
+        <!-- Botão voltar -->
+        <div class="text-center mt-5">
+            <a href="index.html" class="btn btn-primary btn-lg">
+                <i class="fas fa-arrow-left"></i> Voltar para Home
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-secondary text-white text-center py-3">
+    <div class="container">
+        <p class="mb-0">
+            &copy; 2023 Meu Portfólio. Todos os direitos reservados.
+        </p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
